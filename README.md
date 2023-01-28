@@ -43,6 +43,9 @@ exec rlwrap sbcl "$@"
 $ cat >> ~/.config/subcommander/repl/sml
 #!/bin/sh
 exec rlwrap sml "$@"
+
+$ chmod +x ~/.config/subcommander/repl/sbcl
+$ chmod +x ~/.config/subcommander/repl/sml
 ```
 
 Now you can use `repl` as follows.
